@@ -58,8 +58,8 @@ public class JdbcDemo {
             st.execute(update);
 
             //FOR UPDATING THE TABLE
-            String update =  "Delete from public.\"Student\" where sname ='Max' ;";
-            st.execute(update);
+            String delete =  "Delete from public.\"Student\" where sname ='Max' ;";
+            st.execute(delete);
 
 
             //FOR SELECTING THE DATA
