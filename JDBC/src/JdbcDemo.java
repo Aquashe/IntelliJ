@@ -54,12 +54,12 @@ public class JdbcDemo {
 
 
             //FOR UPDATING THE TABLE
-//            String update =  "Update public.\"Student\" set sname ='Max' where sid = 4";
-//            st.execute(update);
+            String update =  "Update public.\"Student\" set sname ='Max' where sid = 4";
+            st.execute(update);
 
             //FOR UPDATING THE TABLE
-//            String update =  "Delete from public.\"Student\" where sname ='Max' ;";
-//            st.execute(update);
+            String update =  "Delete from public.\"Student\" where sname ='Max' ;";
+            st.execute(update);
 
 
             //FOR SELECTING THE DATA
