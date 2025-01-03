@@ -25,8 +25,6 @@ public class JdbcDemo {
             int c = in.nextInt();
             int sid,marks;
             String sname;
-
-
             for(int i=0;i<c;i++){
                 System.out.println("Enter the sid:");
                 Scanner sidIn = new Scanner(System.in);
@@ -60,6 +58,7 @@ public class JdbcDemo {
             //FOR UPDATING THE TABLE
             String delete =  "Delete from public.\"Student\" where sname ='Max' ;";
             st.execute(delete);
+
 
 
             //FOR SELECTING THE DATA
